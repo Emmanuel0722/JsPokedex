@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.title{
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(209, 125, 110);
+}
+
+.card-header{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#formContainer{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    height: 490px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+    Buscar Pokemon!!
+*/
+
+.pokelist{
+    list-style: none;
+}
+
+img{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 5px;
+}
